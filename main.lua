@@ -4,6 +4,8 @@ local COLOR = {0, 1, 0}
 function love.load()
     love.mouse.setVisible(false)
 
+    -- Matrix font used in the effect is Matrix Code NFI by Norfok Incredible Font Design
+    -- https://www.dafont.com/matrix-code-nfi.font
     matrixFont = love.graphics.newFont("font.ttf", FONT_SIZE)
     love.graphics.setFont(matrixFont)
 
